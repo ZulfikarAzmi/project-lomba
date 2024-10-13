@@ -14,12 +14,14 @@
 }
 
 .t-card {
-    width: 32%;
+    width: 100%;
     text-align: start;
     box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.11);
     border-radius: 7px;
     cursor: pointer;
     padding: 1rem 0.8rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .t-image {
@@ -43,6 +45,21 @@
     font-size: 1.3rem;
     padding: 0.9rem 0 0.2rem 0;
 }
+
+.slick-slide > div{
+    margin: 0 10px
+}
+
+.slick-arrow.slick-prev{
+    font-size: 20px;
+    background-color: red;
+}
+
+.slick-arrow.slick-next{
+    font-size: 20px;
+    background-color: red;
+}
+
 
 @media screen and (max-width: 850px) {
     .trip {

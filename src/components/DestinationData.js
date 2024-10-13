@@ -1,8 +1,8 @@
 import { Component } from "react";
-import Mountain1 from "../assets/1.jpg";
-import Mountain2 from "../assets/2.jpg";
-import Mountain3 from "../assets/3.jpg";
-import Mountain4 from "../assets/4.jpg";
+import TuguPahlawan from "../assets/TuguPahlawan.jpeg";
+import KebunBinatang from "../assets/KebunBinatang.jpg";
+import Monkasel from "../assets/Monkasel.jpg";
+import Suramadu from "../assets/Suramadu.jpg";
 import "../components/DestinationStyles.css";
 
 class DestinationData extends Component {
@@ -16,10 +16,11 @@ class DestinationData extends Component {
           </p>
         </div>
         <div className="image">
-          <img src={Mountain1} alt="image" />
-          <img src={Mountain2} alt="image" />
+          <img src={this.props.img1} alt="image" />
+          <img src={this.props.img2} alt="image" />
         </div>
       </div>
+
     );
   }
 }
