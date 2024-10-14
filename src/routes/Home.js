@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Destination from "../components/Destination";
 import Trip from "../components/Trip";
 import Footer from "../components/Footer";
+import HeroImage from "../assets/surabaya1.jpeg"
 
 function Home() {
   return (
@@ -10,7 +11,7 @@ function Home() {
         <Navbar />
         <Hero 
             cName="hero"
-            heroImg="https://github.com/tech2etc/React-Trippy-Tour-Website-Template/blob/main/src/assets/12.jpg?raw=true"
+            heroImg={HeroImage}
             title="Welcome to Surabaya"
             text="Choose your destination"
             url="/"
