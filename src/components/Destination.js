@@ -7,8 +7,8 @@ import "./DestinationStyles.css";
 const Destination = () => {
   return (
     <div className="destination">
-      <h1 style={{ fontSize: '45px' }}>Explore Surabaya: The Heart of East Java</h1>
-      <p>Discover Surabaya's iconic landmarks and must-visit attractions, from historical sites to cultural hotspots</p>
+      <h1 style={{ fontSize: '45px', color: 'var(--body_color)', background: 'var(--body_background)'}}>Explore Surabaya: The Heart of East Java</h1>
+      <p style={{ color: 'var(--body_color)', background: 'var(--body_background)' }}>Discover Surabaya's iconic landmarks and must-visit attractions, from historical sites to cultural hotspots</p>
 
       <DestinationData
         className="first-des"

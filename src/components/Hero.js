@@ -7,8 +7,8 @@ function Hero(props) {
     </div>
 
     <div className="hero-text">
-        <h1>{props.title}</h1>
-        <p>{props.text}</p>
+        <h1 className="hero-title">{props.title}</h1>
+        <p className="hero-teks">{props.text}</p>
         <a href={props.url} className={props.btnClass}>
             {props.buttonText}
         </a>

@@ -4,6 +4,8 @@
     position: relative;
 }
 
+
+
 .hero-mid{
     height: 70vh;
     width: 100%;
@@ -31,24 +33,24 @@ img{
 .hero-text h1{
     font-size: 3rem;
     font-weight: 800;
-    background: #fff;
+    background: var(--body_color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .hero-text p{
     font-size: 1.3rem;
-    color: #fff;
+    color: var(--body_color);
     padding: 0.5rem 0 2rem 0;
 }
 
 .hero-text .show{
     text-decoration: none;
-    background: #fff;
+    background: var(--body_background);
     padding: 1rem 2rem;
     border-radius: 6px;
     font-size: 1.1rem;
     font-weight: bold;
-    color: #222;
+    color: var(--body_color);
     letter-spacing: 2px;
 }
 

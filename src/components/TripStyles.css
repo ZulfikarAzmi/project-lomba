@@ -1,6 +1,6 @@
 .trip {
     margin: 4rem 6rem;
-    color: #2a2a2a;
+    color: var(--body_color);
 }
 
 .trip h1 {
@@ -51,13 +51,15 @@
 }
 
 .slick-arrow.slick-prev{
-    font-size: 20px;
-    background-color: black;
+    right: 50px;
+    font-size: 50px;
+
+    background-color: var(--body_color);
 }
 
 .slick-arrow.slick-next{
-    font-size: 20px;
-    background-color: black;
+    font-size: 50px;
+    background-color: var(--body_color);
 }
 
 
