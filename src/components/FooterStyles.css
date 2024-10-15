@@ -2,9 +2,11 @@
     padding: 4rem 6rem;
     background: var(--body_background);
     color: var(--body_color);
-    border-top: 2px solid grey; /* Garis pemisah di atas footer */
-    padding-top: 20px; /* Ruang di atas footer */
+    border-top: 2px solid grey; 
+    padding-top: 20px; 
 }
+
+
 
 .top {
     display: flex;

@@ -1,5 +1,6 @@
 .NavbarItems {
-  position: relative;
+  /* jika ingin navbar ikut bergerak 
+  position: relative;  */
   background-color: var(--body_background);
   display: flex;
   justify-content: space-between;
@@ -9,7 +10,9 @@
   width: 95%;
   height: 80px;
   border-radius: 13px;
-  position: fixed;
+  /* jika ingin navbar ikut bergerak
+  position: fixed; */
+  position: absolute;
   top: 20px;
   left: 50%;
   transform: translate(-50%);
@@ -148,7 +151,7 @@ button:hover {
 
 .dark-mode-toggle {
   display: flex;
-  justify-content: center; /* Mengatur posisi di tengah */
-  align-items: center; /* Mengatur konten di tengah secara vertikal */
-  margin-bottom: 10px; /* Jarak antara tombol dan menu */
+  justify-content: center; 
+  align-items: center; 
+  margin-bottom: 10px;
 }

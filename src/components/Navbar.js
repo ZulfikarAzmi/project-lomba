@@ -19,9 +19,7 @@ class Navbar extends Component {
           <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
         </div>
         <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
-          <li className="dark-mode-toggle">
-            <DarkMode/>
-          </li>
+         
           {MenuItems.map((item, index) => {
             return (
               <li key={index}>
@@ -29,8 +27,12 @@ class Navbar extends Component {
                   <i className={item.icon}></i>{item.title}
                 </Link>
               </li>
+              
             );
           })}
+          <li className="dark-mode-toggle">
+            <DarkMode/>
+          </li>
           
         </ul>
       </nav>

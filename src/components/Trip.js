@@ -32,7 +32,7 @@ function Trip(){
 
 
   return (
-    <div className="trip">
+    <div className="trip" id="destination">
       <h1>Popular Destinations</h1>
       <p>Explore the iconic landmarks and hidden gems of Surabaya that showcase its rich culture and vibrant history.</p>
       <Slider {...settings}>
