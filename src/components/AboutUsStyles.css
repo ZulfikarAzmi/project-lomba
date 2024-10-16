@@ -2,14 +2,16 @@
     margin: 4rem 6rem;
     text-align: start;
 }
-
 .about-container h1 {
     padding-bottom: 1rem;
+    color: var(--body_color);
 }
 
 .about-container p{
     padding-bottom: 2rem;
+    color: var(--body_color);
 }
+
 
 @media screen and (max-width: 850px) {
     .about-container {

@@ -1,10 +1,15 @@
 .destination{
     margin: 4rem 6rem;
+    
 }
 
 .destination h1{
     font-size: 3rem;
 }
+body {
+  background-color: var(--body_background); /* Ganti dengan variabel yang Anda inginkan */
+}
+
 
 .first-des{
     display: flex;
@@ -29,7 +34,16 @@
 
 .des-text h2{
     padding-bottom: 1rem;
+    color: var(--body_color);
+    background-color: var(--body_background);
 }
+
+.des-text p{
+    color: var(--body_color);
+    background-color: var(--body_background);
+}
+
+
 
 .image{
     position: relative;

@@ -1,8 +1,12 @@
 .footer {
     padding: 4rem 6rem;
-    background: #000;
-    color: #fff;
+    background: var(--body_background);
+    color: var(--body_color);
+    border-top: 2px solid grey; 
+    padding-top: 20px; 
 }
+
+
 
 .top {
     display: flex;
@@ -13,13 +17,13 @@
 }
 
 .top i {
-    color: #fff;
+    color: var(--body_color);
     font-size: 2rem;
     margin-left: 1rem;
 }
 
 .top i:hover {
-    color: #01959a;
+    color: var(--body_color);
 }
 
 .bottom {
@@ -42,7 +46,7 @@
 
 .bottom a {
     text-decoration: none;
-    color: #fafafa;
+    color: var(--body_color);
     padding-bottom: 0.4rem;
     font-size: 1.1rem;
 }

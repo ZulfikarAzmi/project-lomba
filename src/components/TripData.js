@@ -7,7 +7,7 @@ function TripData(props) {
                 <img alt="img" src={props.image} />
             </div>
             <h4>{props.heading}</h4>
-            <p>{props.text}</p>
+            <p style={{ fontSize: '14px' }}>{props.text}</p>
         </div>
     );
 }

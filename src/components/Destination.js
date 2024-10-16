@@ -1,29 +1,29 @@
-import Mountain1 from "../assets/1.jpg";
-import Mountain2 from "../assets/2.jpg";
-import Mountain3 from "../assets/3.jpg";
-import Mountain4 from "../assets/4.jpg";
+import TuguPahlawan from "../assets/TuguPahlawan.jpeg";
+import KebunBinatang from "../assets/KebunBinatang.jpg";
+import Monkasel from "../assets/Monkasel.jpg";
+import Suramadu from "../assets/Suramadu.jpg";
 import DestinationData from "./DestinationData";
 import "./DestinationStyles.css";
 const Destination = () => {
   return (
     <div className="destination">
-      <h1>Popular Destination</h1>
-      <p>Tours give you the opportunity to see a lot, within a time frame</p>
+      <h1 style={{ fontSize: '45px', color: 'var(--body_color)', background: 'var(--body_background)'}}>Explore Surabaya: The Heart of East Java</h1>
+      <p style={{ color: 'var(--body_color)', background: 'var(--body_background)' }}>Discover Surabaya's iconic landmarks and must-visit attractions, from historical sites to cultural hotspots</p>
 
       <DestinationData
         className="first-des"
         heading="Surabaya"
-        text="Surabaya is the second largest city in Indonesia and the capital of East Java province. It is known for its rich culture, delicious cuisine, and vibrant atmosphere."
-        img1={Mountain1}
-        img2={Mountain2}
+        text="Surabaya, the second largest city in Indonesia and the bustling capital of East Java province, is renowned for its rich cultural heritage, diverse and delicious cuisine, and vibrant atmosphere that reflects a perfect blend of tradition and modernity."
+        img1={TuguPahlawan}
+        img2={KebunBinatang}
       />
 
       <DestinationData
         className="first-des-reverse"
         heading="Surabaya"
-        text="Surabaya is the second largest city in Indonesia and the capital of East Java province. It is known for its rich culture, delicious cuisine, and vibrant atmosphere."
-        img1={Mountain3}
-        img2={Mountain4}
+        text="Surabaya offers notable attractions like the Surabaya Zoo, Southeast Asia's oldest, and Monkasel, the Submarine Monument, showcasing Indonesia's naval history. The Tugu Pahlawan (Heroes Monument) is a must-visit landmark honoring the city's role in the independence struggle."
+        img1={Monkasel}
+        img2={Suramadu}
       />
     </div>
   );
