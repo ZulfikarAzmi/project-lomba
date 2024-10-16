@@ -1,20 +1,32 @@
 {
   "files": {
-    "main.css": "/project-lomba/static/css/main.f8385285.css",
-    "main.js": "/project-lomba/static/js/main.460c2eb2.js",
+    "main.css": "/project-lomba/static/css/main.10ea54ef.css",
+    "main.js": "/project-lomba/static/js/main.11d82e3a.js",
     "static/js/453.2ff4d8c8.chunk.js": "/project-lomba/static/js/453.2ff4d8c8.chunk.js",
-    "static/media/3.jpg": "/project-lomba/static/media/3.84d5235cc693e15661d6.jpg",
-    "static/media/2.jpg": "/project-lomba/static/media/2.bbb41348bb839b9124d8.jpg",
-    "static/media/1.jpg": "/project-lomba/static/media/1.509d4d795248ac9962f3.jpg",
-    "static/media/4.jpg": "/project-lomba/static/media/4.0c7885e97d08f0a61db1.jpg",
+    "static/media/background.jpg": "/project-lomba/static/media/background.5dc102f62027b7b59c73.jpg",
+    "static/media/surabaya1.jpeg": "/project-lomba/static/media/surabaya1.1a2c4e3f86ed8fbb3fd8.jpeg",
+    "static/media/TamanBungkul.jpg": "/project-lomba/static/media/TamanBungkul.dd11981cd85cd142cc1e.jpg",
+    "static/media/TuguPahlawan.jpeg": "/project-lomba/static/media/TuguPahlawan.00e95fe391a137cce538.jpeg",
+    "static/media/KotaTua.jpg": "/project-lomba/static/media/KotaTua.218dfea493c4815f27b4.jpg",
+    "static/media/museum.jpg": "/project-lomba/static/media/museum.b5bf6ccf969a369c3f4c.jpg",
+    "static/media/KebunBinatang.jpg": "/project-lomba/static/media/KebunBinatang.d6d70202382fcab12c55.jpg",
+    "static/media/Monkasel.jpg": "/project-lomba/static/media/Monkasel.bcab9f77064b192dd620.jpg",
+    "static/media/Masjid.jpg": "/project-lomba/static/media/Masjid.00d50dfc59ddb15bc04f.jpg",
     "static/media/night.jpg": "/project-lomba/static/media/night.ac6d287d5d0014553b87.jpg",
+    "static/media/Suramadu.jpg": "/project-lomba/static/media/Suramadu.3a9ff2cb9bc9acc3440d.jpg",
+    "static/media/Sun.svg": "/project-lomba/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
+    "static/media/slick.svg": "/project-lomba/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/project-lomba/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/project-lomba/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/project-lomba/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/project-lomba/index.html",
-    "main.f8385285.css.map": "/project-lomba/static/css/main.f8385285.css.map",
-    "main.460c2eb2.js.map": "/project-lomba/static/js/main.460c2eb2.js.map",
+    "static/media/Moon.svg": "/project-lomba/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
+    "main.10ea54ef.css.map": "/project-lomba/static/css/main.10ea54ef.css.map",
+    "main.11d82e3a.js.map": "/project-lomba/static/js/main.11d82e3a.js.map",
     "453.2ff4d8c8.chunk.js.map": "/project-lomba/static/js/453.2ff4d8c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8385285.css",
-    "static/js/main.460c2eb2.js"
+    "static/css/main.10ea54ef.css",
+    "static/js/main.11d82e3a.js"
   ]
 }
