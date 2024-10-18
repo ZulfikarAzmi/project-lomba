@@ -1,29 +1,29 @@
-import Mountain1 from "../assets/1.jpg";
-import Mountain2 from "../assets/2.jpg";
-import Mountain3 from "../assets/3.jpg";
-import Mountain4 from "../assets/4.jpg";
+import TuguPahlawan from "../assets/TuguPahlawan.jpeg";
+import KebunBinatang from "../assets/KebunBinatang.jpg";
+import Monkasel from "../assets/Monkasel.jpg";
+import Suramadu from "../assets/Suramadu.jpg";
 import DestinationData from "./DestinationData";
 import "./DestinationStyles.css";
 const Destination = () => {
   return (
     <div className="destination">
-      <h1>Popular Destination</h1>
-      <p>Tours give you the opportunity to see a lot, within a time frame</p>
+      <h1 style={{ fontSize: '45px', color: 'var(--body_color)', background: 'var(--body_background)'}}>Surabaya: Kota Penuh Sejarah dan Budaya</h1>
+      <p style={{ color: 'var(--body_color)', background: 'var(--body_background)' }}>Temukan berbagai destinasi wisata menarik yang mencerminkan sejarah dan budaya Surabaya.</p>
 
       <DestinationData
         className="first-des"
         heading="Surabaya"
-        text="Surabaya is the second largest city in Indonesia and the capital of East Java province. It is known for its rich culture, delicious cuisine, and vibrant atmosphere."
-        img1={Mountain1}
-        img2={Mountain2}
+        text="Surabaya adalah ibu kota Provinsi Jawa Timur dan kota terbesar kedua di Indonesia. Terletak di pesisir timur Pulau Jawa, kota ini merupakan pusat bisnis, pendidikan, dan industri dengan sejarah penting dalam perjuangan kemerdekaan Indonesia."
+        img1={TuguPahlawan}
+        img2={KebunBinatang}
       />
 
       <DestinationData
         className="first-des-reverse"
-        heading="Surabaya"
-        text="Surabaya is the second largest city in Indonesia and the capital of East Java province. It is known for its rich culture, delicious cuisine, and vibrant atmosphere."
-        img1={Mountain3}
-        img2={Mountain4}
+        heading=""
+        text="Surabaya memiliki potensi besar di sektor perdagangan, industri, dan pariwisata. Dengan kawasan industri dan pelabuhan besar, kota ini mendukung aktivitas ekonomi nasional. Surabaya juga menawarkan wisata sejarah dan alam, menjadikannya pusat perkotaan yang terus berkembang di Indonesia."
+        img1={Monkasel}
+        img2={Suramadu}
       />
     </div>
   );

@@ -3,13 +3,13 @@ import "./ContactFormStyles.css";
 function ContactForm() {
     return(
         <div className="form-container">
-            <h1>Send a message to us!</h1>
+            <h1>Kirim Pesan Pada Kami!</h1>
             <form>
-                <input placeholder="Name" />
+                <input placeholder="Nama" />
                 <input placeholder="Email" />
-                <input placeholder="Subject" />
-                <textarea rows="4" placeholder="Message" />
-                <button>Send Message</button>
+                <input placeholder="Subjek" />
+                <textarea rows="4" placeholder="Pesan" />
+                <button>Kirim Pesan</button>
             </form>
         </div>
     )

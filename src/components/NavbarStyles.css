@@ -1,5 +1,7 @@
 .NavbarItems {
-  background-color: #fff;
+  /* jika ingin navbar ikut bergerak 
+  position: relative;  */
+  background-color: var(--body_background);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,7 +10,9 @@
   width: 95%;
   height: 80px;
   border-radius: 13px;
-  position: fixed;
+  /* jika ingin navbar ikut bergerak
+  position: fixed; */
+  position: absolute;
   top: 20px;
   left: 50%;
   transform: translate(-50%);
@@ -16,7 +20,7 @@
 }
 
 .navbar-logo {
-  color: #222;
+  color: var(--body_color);
   font-size: 2rem;
   cursor: pointer;
 }
@@ -30,7 +34,7 @@
 }
 
 .nav-links {
-  color: #222;
+  color: var(--body_color);
   text-decoration: none;
   padding: 0.7rem 1rem;
   font-size: 1.2rem;
@@ -39,8 +43,8 @@
 }
 
 .nav-links:hover {
-  background-color: #01959a;
-  color: #fff;
+  background-color: var(--body_background);
+  color: var(--body_color);
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
 }
@@ -65,8 +69,8 @@ button {
 }
 
 button:hover {
-  background-color: #151516;
-  color: #fff;
+  background-color: var(--body_background);
+  color: var(--body_color);
 }
 
 .menu-icons {
@@ -82,7 +86,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: #fff;
+    background: var(--body_background);
     width: 100%;
     height: auto;
     position: absolute;
@@ -111,7 +115,7 @@ button:hover {
   }
 
   .nav-links:hover {
-    background: #01959a;
+    background: var(--body-background);
     transition: none;
   }
 
@@ -126,9 +130,9 @@ button:hover {
     margin: auto;
     border-radius: 4px;
     width: 80%;
-    background: #01959a;
+    background: var(--body_background);
     text-decoration: none;
-    color: #fff;
+    color: var(--body_color);
     font-size: 1.2rem;
     font-weight: 700;
     letter-spacing: 2px;
@@ -141,6 +145,13 @@ button:hover {
 
   .menu-icons i {
     font-size: 1.2rem;
-    color: #222;
+    color: var(--body_color);
   }
+}
+
+.dark-mode-toggle {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-bottom: 10px;
 }
